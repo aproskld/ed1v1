@@ -16,10 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hi ed1v1b" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="g98-r2-iy1">
-                                <rect key="frame" x="148.5" y="403" width="117.5" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi ed1v1b" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="g98-r2-iy1">
+                                <rect key="frame" x="142" y="432" width="130" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="g98-r2-iy1" secondAttribute="height" multiplier="59:16" id="nCx-sE-tMe"/>
+                                    <constraint firstAttribute="height" constant="32" id="XLe-8V-oDx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="cMr-VV-5nP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" systemColor="systemBlueColor"/>
@@ -29,8 +30,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="g98-r2-iy1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ayA-Rp-D32"/>
-                            <constraint firstItem="g98-r2-iy1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mG3-p5-Fj9"/>
+                            <constraint firstItem="g98-r2-iy1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V0V-hK-bos"/>
+                            <constraint firstItem="g98-r2-iy1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rs0-f3-8zu"/>
                         </constraints>
                     </view>
                 </viewController>
